@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Sticky Notes",
+    "github_link": "https://github.com/trstefan/react-notes",
+    "demo_link": "https://trstefan.github.io/react-notes/",
+    "description": "Web application build with React and Hooks,with an eye to adding and deleting sticky notes."
+  },
+  {
+    "id": 2,
+    "title": "Breaking Bad",
+    "github_link": "https://github.com/trstefan/react-breakingbad",
+    "demo_link": "https://trstefan.github.io/react-breakingbad/",
+    "description": "Web application build with React and Hooks and consuming Breaking Bad API via Axios."
+  },
+  {
+    "id": 3,
+    "title": "React Colours Generator",
+    "github_link": "https://github.com/trstefan/react-colours",
+    "demo_link": "https:trstefan.github.io/react-colours/",
+    "description": "React web application that generates random colours."
+  },
+  {
+    "id": 4,
+    "title": "React Imagine Slider",
+    "github_link": "https://github.com/trstefan/react-image-slider",
+    "demo_link": "https://trstefan.github.io/react-image-slider/",
+    "description": "Smooth imagine slider built in React."
+  }
+]
