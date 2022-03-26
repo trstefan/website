@@ -10,7 +10,7 @@
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 1rem;
   padding: 0 2em;
   margin-bottom: 2rem;
 }
@@ -19,7 +19,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .card-info {
   display: flex;
@@ -30,7 +29,9 @@
 
 .project-card img {
   width: 100%;
-  height: 300px;
+  height: auto;
+  max-height: 300px;
+  min-height: 100px;
   border: 2px whitesmoke solid;
   margin-top: 2rem;
   margin-bottom: 1rem;

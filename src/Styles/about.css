@@ -1,6 +1,5 @@
 .about-container {
   background-color: brown;
-  border: 2px red solid;
 }
 
 .content-img {
@@ -76,16 +75,30 @@
 
 @media (max-width: 920px) {
   .tools-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 1rem;
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 470px) {
+  .tools-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
   .tools-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(8, 1fr);
+  }
+}
+@media (max-width: 250px) {
+  .tools-container {
+    justify-items: start;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
