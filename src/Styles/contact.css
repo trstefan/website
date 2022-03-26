@@ -3,6 +3,7 @@
 }
 
 .contact-container {
+  min-width: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -13,12 +14,18 @@
 
 @media (max-width: 880px) {
   .contact-container {
-    max-width: 600px;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
   }
   .contact-info {
     min-width: 15%;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
@@ -251,4 +258,10 @@ textarea {
 }
 .info-icon {
   margin-right: 0.2rem;
+}
+
+@media (max-width: 450px) {
+  .contact-info {
+    width: 70%;
+  }
 }

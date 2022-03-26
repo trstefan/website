@@ -16,7 +16,7 @@ export const ContactDetails = () => {
       </div>
       <div className="info">
         <GrLocation className="info-icon" />
-        Norwich, United Kingdom.
+        <small>Norwich, United Kingdom.</small>
       </div>
     </div>
   );
