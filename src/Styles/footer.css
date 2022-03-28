@@ -1,11 +1,14 @@
+/*
+9b2226
+*/
+
 footer {
-  background-color: brown;
+  background-color: #550c18;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1rem 0 1rem;
   z-index: 1;
-  border-top: 2px solid black;
 }
 
 span {

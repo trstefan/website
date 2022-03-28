@@ -1,5 +1,5 @@
 .about-container {
-  background-color: brown;
+  background-color: #a3423c;
 }
 
 .content-img {
@@ -29,10 +29,6 @@
   margin: 2rem 0 2rem 2rem;
 }
 
-.skills-title h1 {
-  margin-bottom: 2rem;
-}
-
 .tools-container {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -41,6 +37,13 @@
   padding: 2rem;
   align-items: center;
 }
+
+.box-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .further-skills {
   padding-bottom: 1rem;
 }

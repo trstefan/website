@@ -5,7 +5,7 @@ import { Tools } from "./Tools";
 export const About = () => {
   return (
     <div className="about-container">
-      <h1 className="title">About</h1>
+      <h1 className="page-heading">About</h1>
       <div className="about-content">
         <div className="content-img">
           <img
@@ -15,21 +15,21 @@ export const About = () => {
           />
         </div>
         <div className="content-text">
-          <h3>
+          <h4>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
             iste.
-          </h3>
-          <p>
+          </h4>
+          <p className="normal-text">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
             veniam nobis natus sequi minus maxime voluptatibus officiis dolores
             non eius, saepe tempore error debitis veritatis.
           </p>
-          <p>
+          <p className="normal-text">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
             veniam nobis natus sequi minus maxime voluptatibus officiis dolores
             non eius, saepe tempore error debitis veritatis.
           </p>
-          <p>
+          <p className="normal-text">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
             veniam nobis natus sequi minus maxime voluptatibus officiis dolores
             non eius, saepe tempore error debitis veritatis.
@@ -38,8 +38,8 @@ export const About = () => {
       </div>
       <Tools></Tools>
       <div className="further-skills">
-        <h1 className="title">Currently working on:</h1>
-        <p id="txt">
+        <h1 className="page-subheading">Currently focusing on:</h1>
+        <p className="normal-text" id="txt">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
           atque, recusandae dolorum ad voluptatem saepe nihil doloremque minima
           cumque commodi reprehenderit sit tenetur accusamus aut pariatur sunt

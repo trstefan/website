@@ -1,10 +1,6 @@
 .projects-container {
-  background-color: brown;
+  background-color: #a3423c;
   padding-bottom: 1rem;
-}
-
-.title {
-  padding: 2rem 0 1.5rem 2rem;
 }
 
 .projects-grid {
@@ -57,14 +53,14 @@
 }
 
 #ghlink:hover {
-  color: black;
+  color: #ffd32d;
   cursor: pointer;
-  border: 2px black solid;
+  border: 2px #ffd32d solid;
   border-radius: 50%;
 }
 
 .project-card img:hover {
-  border: 4px yellow solid;
+  border: 5px #ffd32d solid;
 }
 
 @media (max-width: 800px) {

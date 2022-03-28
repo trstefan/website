@@ -2,7 +2,6 @@ import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 
 import "../Styles/projects.css";
-import "../Styles/general.css";
 
 export const ProjectCard = ({ project }) => {
   return (
@@ -18,14 +17,14 @@ export const ProjectCard = ({ project }) => {
       <div className="project-info">
         <div className="card-info">
           <a id="link" href={project.demo_link}>
-            <h2>{project.title}</h2>{" "}
+            <h2 className="project-title">{project.title}</h2>{" "}
           </a>
           <a id="ghlink" href={project.github_link}>
             <AiFillGithub className="github-icon"></AiFillGithub>
           </a>
         </div>
         <div className="project-description">
-          <p>{project.description}</p>
+          <p className="project-text">{project.description}</p>
         </div>
       </div>
     </div>

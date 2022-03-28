@@ -6,7 +6,7 @@ import { GrLocation, GrMail } from "react-icons/gr";
 export const ContactDetails = () => {
   return (
     <div className="contact-info">
-      <p>
+      <p className="normal-text">
         Dropping a line to say g’day, ask for my resume or see if we can build
         something amazing together? I’d love to hear from you!
       </p>
