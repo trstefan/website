@@ -50,7 +50,6 @@ body {
   color: #ececec;
   font-family: "Roboto Slab", serif;
   font-size: 18px;
-  font-weight: 400;
 }
 
 .project-text {
@@ -63,4 +62,19 @@ body {
   font-weight: 200;
   font-style: italic;
   color: #f3f4e1;
+}
+
+.uni {
+  font-size: 18px;
+  color: #ececec;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.uni-link {
+  text-decoration: none;
+  color: #180a0a;
+}
+.uni-link:hover {
+  color: #2d31fa;
 }

@@ -15,24 +15,28 @@ export const About = () => {
           />
         </div>
         <div className="content-text">
-          <h4>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
-            iste.
-          </h4>
+          <h4>Some bits about me and my interests</h4>
           <p className="normal-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
-            veniam nobis natus sequi minus maxime voluptatibus officiis dolores
-            non eius, saepe tempore error debitis veritatis.
+            Hello! My name is Stefan and I enjoy creating things that live on
+            the internet. My interest in web development started back in high
+            school when I had to build an elementary website using HTML & CSS
+            about the city where I studied.
           </p>
           <p className="normal-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
-            veniam nobis natus sequi minus maxime voluptatibus officiis dolores
-            non eius, saepe tempore error debitis veritatis.
+            Fast-forward to today, I have a{" "}
+            <span className="uni">BSc in Computing Science</span> from{" "}
+            <a className="uni-link" href="https://www.uea.ac.uk/">
+              University of East Anglia
+            </a>{" "}
+            and I've become more passionate about brining lines of code to
+            life.Currently solving deceptively simple problems at Frontend
+            Mentor.
           </p>
           <p className="normal-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
-            veniam nobis natus sequi minus maxime voluptatibus officiis dolores
-            non eius, saepe tempore error debitis veritatis.
+            In my "spare" time I could be doing any number of things. I'm pretty
+            into watching sports (mainly football and Formula 1) and nerd stuff
+            like Starwars or Marvel shows. I'm also a passionate gamer and a pet
+            lover, having 3 clumsy cats.
           </p>
         </div>
       </div>

@@ -7,11 +7,7 @@ export const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
       <a id="imglink" href={project.demo_link}>
-        <img
-          src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          alt="project-pic"
-          id="project-img"
-        />
+        <img src={project.img_link} alt={project.alt} id="project-img" />
       </a>
 
       <div className="project-info">

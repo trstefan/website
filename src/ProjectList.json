@@ -2,29 +2,46 @@
   {
     "id": 1,
     "title": "Sticky Notes",
+    "img_link": "https://i.ibb.co/XXyw640/notes.png",
     "github_link": "https://github.com/trstefan/react-notes",
     "demo_link": "https://trstefan.github.io/react-notes/",
-    "description": "Web application build with React and Hooks,with an eye to adding and deleting notes.asdasdasda"
+    "description": "Web application build with React and Hooks,with an eye to adding and deleting notes.",
+    "alt": "Sticky-notes project"
   },
   {
     "id": 2,
     "title": "Breaking Bad",
+    "img_link": "https://i.ibb.co/SBSpFgD/ezgif-2-26ea571168.gif",
     "github_link": "https://github.com/trstefan/react-breakingbad",
     "demo_link": "https://trstefan.github.io/react-breakingbad/",
-    "description": "Web application build with React and Hooks and consuming Breaking Bad API via Axios."
+    "description": "Web application build with React and Hooks and consuming Breaking Bad API via Axios.",
+    "alt": "Breaking bad application"
   },
   {
     "id": 3,
-    "title": "React Colours Generator",
-    "github_link": "https://github.com/trstefan/react-colours",
-    "demo_link": "https:trstefan.github.io/react-colours/",
-    "description": "React web application that generates random colours.adasdasdasda asda dasdasdsad sda dasda dasd"
+    "title": "ReactDex",
+    "img_link": "https://i.ibb.co/8dmw0jN/ReactDex.png",
+    "github_link": "https://github.com/trstefan/reactdex",
+    "demo_link": "https://trstefan.github.io/reactdex/#/",
+    "description": "Pokedex of the 151 OG Pokemons using React, consuming Pokeapi API.",
+    "alt": "Reactdex"
   },
   {
     "id": 4,
+    "title": "React Colours Generator",
+    "img_link": "https://i.ibb.co/dgYCVcQ/colours.gif",
+    "github_link": "https://github.com/trstefan/react-colours",
+    "demo_link": "https:trstefan.github.io/react-colours/",
+    "description": "React web application that generates random colours.",
+    "alt": "React colours generator"
+  },
+  {
+    "id": 5,
     "title": "React Imagine Slider",
+    "img_link": "https://i.ibb.co/K09dL0J/silder.gif",
     "github_link": "https://github.com/trstefan/react-image-slider",
     "demo_link": "https://trstefan.github.io/react-image-slider/",
-    "description": "Smooth imagine slider built in React."
+    "description": "Smooth imagine slider built in React.",
+    "alt": "React Slider"
   }
 ]
