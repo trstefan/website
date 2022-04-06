@@ -15,12 +15,12 @@ export const About = () => {
           />
         </div>
         <div className="content-text">
-          <h4>Some bits about me and my interests</h4>
+          <h4>Some bits about me and my interestsy</h4>
           <p className="normal-text">
-            Hello! My name is Stefan and I enjoy creating things that live on
-            the internet. My interest in web development started back in high
-            school when I had to build an elementary website using HTML & CSS
-            about the city where I studied.
+            Hello! My name is Stefan<small> (you can call me Stef)</small> and I
+            enjoy creating things that live on the internet. My interest in web
+            development started back in high school when I had to build an
+            elementary website using HTML & CSS about the city where I studied.
           </p>
           <p className="normal-text">
             Fast-forward to today, I have a{" "}
@@ -28,28 +28,29 @@ export const About = () => {
             <a className="uni-link" href="https://www.uea.ac.uk/">
               University of East Anglia
             </a>{" "}
-            and I've become more passionate about brining lines of code to
-            life.Currently solving deceptively simple problems at Frontend
-            Mentor.
+            and I've become more passionate about brining lines of code to life.
+            Currently solving deceptively simple problems from{" "}
+            <a className="uni-link" href="https://www.frontendmentor.io/">
+              Frontend Mentor
+            </a>
+            .
           </p>
           <p className="normal-text">
             In my "spare" time I could be doing any number of things. I'm pretty
-            into watching sports (mainly football and Formula 1) and nerd stuff
-            like Starwars or Marvel shows. I'm also a passionate gamer and a pet
+            into watching sports (mainly football and Formula 1) and geek stuff
+            like Starwars or Marvel shows. I'm also a fiery gamer and a pet
             lover, having 3 clumsy cats.
           </p>
         </div>
       </div>
       <Tools></Tools>
       <div className="further-skills">
-        <h1 className="page-subheading">Currently focusing on:</h1>
+        <h1 className="page-subheading">Currently working on:</h1>
         <p className="normal-text" id="txt">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
-          atque, recusandae dolorum ad voluptatem saepe nihil doloremque minima
-          cumque commodi reprehenderit sit tenetur accusamus aut pariatur sunt
-          itaque officia at! Doloremque, inventore, suscipit dolorum quidem
-          corporis eum nesciunt officia sint reiciendis vero, magni iusto nemo
-          beatae ut quis praesentium. Labore.
+          Improving my skills in, and understanding of vanilla JavaScript and
+          React. Also, I'm trying to become a more active open source
+          contributor and learn new technologies like Redux, Typescript, Sass
+          and NextJS .
         </p>
       </div>
     </div>
