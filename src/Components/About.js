@@ -15,7 +15,7 @@ export const About = () => {
           />
         </div>
         <div className="content-text">
-          <h4>Some bits about me and my interestsy</h4>
+          <h4>Some bits about me and my interests</h4>
           <p className="normal-text">
             Hello! My name is Stefan<small> (you can call me Stef)</small> and I
             enjoy creating things that live on the internet. My interest in web

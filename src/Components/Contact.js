@@ -7,7 +7,7 @@ import { ContactDetails } from "./ContactDetails";
 export const Contact = () => {
   return (
     <div className="contact">
-      <h1 className="page-heading">Contact</h1>
+      <h1 className="page-heading">Ping me</h1>
       <div className="contact-container">
         <ContactDetails></ContactDetails>
         <ContactForm></ContactForm>

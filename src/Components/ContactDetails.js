@@ -1,7 +1,6 @@
 import React from "react";
+import Mailto from "react-protected-mailto";
 import "../Styles/contact.css";
-
-import { GrLocation, GrMail } from "react-icons/gr";
 
 export const ContactDetails = () => {
   return (
@@ -10,14 +9,13 @@ export const ContactDetails = () => {
         Dropping a line to say g’day, ask for my resume or see if we can build
         something amazing together? I’d love to hear from you!
       </p>
-      <div className="info">
-        <GrMail className="info-icon" />
-        <small>stefantraciu20@gmail.com</small>
-      </div>
-      <div className="info">
-        <GrLocation className="info-icon" />
-        <small>Norwich, United Kingdom.</small>
-      </div>
+      <p className="normal-text">
+        Not a fan of filling a form? Shoot me an email at{" "}
+        <Mailto
+          className="email-link"
+          email="stefantraciu20@gmail.com"
+        ></Mailto>
+      </p>
     </div>
   );
 };

@@ -18,11 +18,12 @@
 .about-content {
   display: grid;
   grid-template-columns: 20% 80%;
-  grid-gap: 1rem;
+  gap: 0.5rem;
 }
 
 .content-text {
-  padding-right: 1rem;
+  width: 97%;
+  padding-right: 0.5rem;
 }
 
 .content-text h3 {

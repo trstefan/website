@@ -78,3 +78,22 @@ body {
 .uni-link:hover {
   color: #2d31fa;
 }
+
+.info-small {
+  color: #180a0a;
+  font-weight: 600;
+  font-style: italic;
+}
+
+p .email-link {
+  text-decoration: none;
+  color: #180a0a;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+p .email-link:hover {
+  background-color: #180a0a;
+  color: #ececec;
+}
