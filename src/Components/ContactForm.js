@@ -1,7 +1,29 @@
 import React from "react";
 import "../Styles/contact.css";
+import emailjs from "@emailjs/browser";
 
 export const ContactForm = () => {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ww7j01k",
+        "template_w9qzm4r",
+        e.target,
+        "LjRcmMpDxrk7S_jWw"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
+
   return (
     <div className="contact-form">
       <h1>&bull; Keep in Touch &bull;</h1>
@@ -12,7 +34,7 @@ export const ContactForm = () => {
           <path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
         </svg>
       </div>
-      <form action="#" method="post" id="contact_form">
+      <form onSubmit={sendEmail} id="contact_form">
         <div className="name">
           <label htmlFor="name"></label>
           <input
