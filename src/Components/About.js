@@ -38,8 +38,8 @@ export const About = () => {
           <p className="normal-text">
             In my "spare" time I could be doing any number of things. I'm pretty
             into watching sports (mainly football and Formula 1) and geek stuff
-            like Starwars or Marvel shows. I'm also a fiery gamer and a pet
-            lover, having 3 clumsy cats.
+            like Starwars or Marvel shows. Also, I play video games and I'm a
+            pet lover, having 3 clumsy cats.
           </p>
         </div>
       </div>
@@ -49,8 +49,8 @@ export const About = () => {
         <p className="normal-text" id="txt">
           Improving my skills in, and understanding of vanilla JavaScript and
           React. Also, I'm trying to become a more active open source
-          contributor and learn new technologies like Redux, Typescript, Sass
-          and NextJS .
+          contributor and learn new technologies like Next.js, Typescript, Redux
+          and Sass.
         </p>
       </div>
     </div>
